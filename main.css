@@ -1121,3 +1121,11 @@ h1, h2, h3 {
     padding: 50px 0;
     font-size: 12px
 }
+
+/*custom classes*/
+
+.text-ellipsis {
+    text-overflow: ellipsis !important;
+    overflow: hidden;
+}
+
