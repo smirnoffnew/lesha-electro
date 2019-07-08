@@ -477,7 +477,7 @@
     }
 
     function submitFrom(){
-        const message = encodeURIComponent(`от: ${selectorPhoneInput.val().trim()} \nсообщение: ${selectorPhoneInput.val().trim()}`);
+        const message = encodeURIComponent(`от: ${selectorPhoneInput.val().trim()} \nсообщение: ${selectorMessageInput.val()}`);
 
         $.ajax({
             type: "GET",
