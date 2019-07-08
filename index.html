@@ -201,54 +201,66 @@
                     </header>
                     <ul class="faq-list">
                         <li class="wow fadeInLeft">
-<!--                            <h4 class="faq-q">What browsers does Angular work with?</h4>-->
+                            <!--<h4 class="faq-q">What browsers does Angular work with?</h4>-->
                             <p class="faq-a">
                                 Наявність знижок від ціни на природний газ в порівнянні з цінами, що реалізує НАК Нафтогаз України та обласні газозбутові організації
                             </p>
                         </li>
+
+                        <li data-wow-delay="0.3s" class="wow fadeInRight">
+                            <!--<h4 class="faq-q">Is AngularJS a library, framework, plugin or a browser extension?</h4>-->
+                            <p class="faq-a">
+                                Ми маємо можливість задовольнити потреби найвибагливіших клієнтів,
+                                гарантуючи їм привабливі умови: конкурентна ціна, бездоганна якість, оперативність поставки
+                            </p>
+                        </li>
+
+                        <li data-wow-delay="0.15s" class="wow fadeInRight">
+                            <!--<h4 class="faq-q">Can I use the Angular logo artwork?</h4>-->
+                            <p class="faq-a">
+                                Ми пропонуємо гнучкість умов оплати, та взаємовигідну співпрацю з довготривалою перспективою.
+                            </p>
+                        </li>
+
                         <li class="wow fadeInRight">
-<!--                            <h4 class="faq-q">Does Angular use the jQuery library?</h4>-->
+                            <!--<h4 class="faq-q">Does Angular use the jQuery library?</h4>-->
                             <p class="faq-a">
                                 Наявність знижок від ціни на електроенергію в порівнянні з цінами, що реалізує постачальники Обленерго
                             </p>
                         </li>
+
+                        <li data-wow-delay="0.3s" class="wow fadeInRight">
+                            <!--<h4 class="faq-q">Is AngularJS a library, framework, plugin or a browser extension?</h4>-->
+                            <p class="faq-a">
+                                Гарантоване підтвердження ПДВ на природний газ та електроенергію,
+                                своєчасна реєстрація податкових накладних
+                            </p>
+                        </li>
+
                         <li data-wow-delay="0.15s" class="wow fadeInLeft">
-<!--                            <h4 class="faq-q">What is testability like in Angular?</h4>-->
+                            <!--<h4 class="faq-q">What is testability like in Angular?</h4>-->
                             <p class="faq-a">
                                 Відсутність штрафних санкцій за перевищення лімітів потужності та обсягів споживання електроенергії
                             </p>
                         </li>
-                        <li data-wow-delay="0.15s" class="wow fadeInRight">
-<!--                            <h4 class="faq-q">Can I use the Angular logo artwork?</h4>-->
-                            <p class="faq-a">
-                                Гнучкість умов оплати
-                            </p>
-                        </li>
+
                         <li data-wow-delay="0.3s" class="wow fadeInLeft">
-<!--                            <h4 class="faq-q">Why is the namespace called "ng"?</h4>-->
+                            <!--<h4 class="faq-q">Why is the namespace called "ng"?</h4>-->
                             <p class="faq-a">
                                 Гарантоване заведення обсягів на 1-е число кожного місяця
 
                             </p>
                         </li>
+
                         <li data-wow-delay="0.3s" class="wow fadeInRight">
-<!--                            <h4 class="faq-q">Is AngularJS a library, framework, plugin or a browser extension?</h4>-->
+                            <!--<h4 class="faq-q">Is AngularJS a library, framework, plugin or a browser extension?</h4>-->
                             <p class="faq-a">
                                 Оперативне корегування обсягів споживання протягом місяця
                             </p>
                         </li>
-                        <li data-wow-delay="0.3s" class="wow fadeInRight">
-<!--                            <h4 class="faq-q">Is AngularJS a library, framework, plugin or a browser extension?</h4>-->
-                            <p class="faq-a">
-                                Гарантоване підтвердження ПДВ на природний газ та електроенергію, своєчасна реєстрація податкових накладних
-                            </p>
-                        </li>
-                        <li data-wow-delay="0.3s" class="wow fadeInRight">
-<!--                            <h4 class="faq-q">Is AngularJS a library, framework, plugin or a browser extension?</h4>-->
-                            <p class="faq-a">
-                                Ми можемо з впевненістю сказати, що маємо можливість задовольнити потреби найвибагливіших клієнтів, гарантуючи їм привабливі умови, з яких пріоритетними є: конкурентна ціна, бездоганна якість, оперативність поставки
-                            </p>
-                        </li>
+
+
+
                     </ul>
                 </div>
             </div>
@@ -303,30 +315,41 @@
                             <h3 class="section-heading-underline">Зворотній зв'язок</h3>
                             <form novalidate class="form-horizontal wow fadeInRight">
                                 <fieldset>
+
                                     <div class="form-group">
                                         <div class="ui-input-group">
-                                            <input type="text" required class="form-control"><span
-                                                class="input-bar"></span>
-                                            <label>Ваш номер телефону</label>
+                                            <input type="number"
+                                                   id="phoneInput"
+                                                   required
+                                                   placeholder="ваш телефон 38 XXX XX XXX XX"
+                                                   min="10"
+                                                   max="12"
+                                                   class="form-control">
+                                            <span class="input-bar"></span>
                                         </div>
                                     </div>
-<!--                                    <div class="form-group">-->
-<!--                                        <div class="ui-input-group">-->
-<!--                                            <input type="text" required class="form-control"><span-->
-<!--                                                class="input-bar"></span>-->
-<!--                                            <label>Password</label>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
+
                                     <div class="form-group">
                                         <div class="ui-input-group">
-                                            <textarea type="text" required rows="5"
-                                                      class="form-control"></textarea><sЗавантажитиpan class="input-bar"></sЗавантажитиpan>
+                                            <textarea type="text"
+                                                      id="messageInput"
+                                                      required
+                                                      min="5"
+                                                      max="120"
+                                                      rows="5"
+                                                      class="form-control">
+                                            </textarea>
                                             <label>повідомлення</label>
                                         </div>
                                     </div>
                                     <div class="divider"></div>
+
                                     <div class="form-group">
-                                        <button class="btn btn-raised btn-primary btn-w-sm ui-wave">Надіслати</button>
+                                        <button id="submitButton"
+                                                type="button"
+                                                class="btn btn-raised btn-primary btn-w-sm ui-wave"
+                                                onclick="submitFrom()">Надіслати
+                                        </button>
                                     </div>
                                 </fieldset>
                             </form>
@@ -336,80 +359,138 @@
             </div>
 
 
-            <div id="more" class="contact">
-                <div class="container">
-                    <header>
-                        <h2 class="section-heading-underline">Додаткова інформація</h2>
-                    </header>
-                    <div class="row">
+<!--            <div id="more" class="contact">-->
+<!--                <div class="container">-->
+<!--                    <header>-->
+<!--                        <h2 class="section-heading-underline">Додаткова інформація</h2>-->
+<!--                    </header>-->
+<!--                    <div class="row">-->
 
-                        <div class="col-md-6">
-                            <div class="contact-info-container wow fadeInLeft">
-                                <ul class="list-unstyled contact-info">
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="contact-info-container wow fadeInLeft">-->
+<!--                                <ul class="list-unstyled contact-info">-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">settings_input_hdmi</i>
-                                        ТОВ "ДЕЛЕКТА"
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">settings_input_hdmi</i>-->
+<!--                                        ТОВ "ДЕЛЕКТА"-->
+<!--                                    </li>-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">code</i>
-                                        Код: 41978242
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">code</i>-->
+<!--                                        Код: 41978242-->
+<!--                                    </li>-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">place</i>
-                                        01133, м.Київ, провулок Лабораторний, 6 / офіс 21
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">place</i>-->
+<!--                                        01133, м.Київ, провулок Лабораторний, 6 / офіс 21-->
+<!--                                    </li>-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">beenhere</i>
-                                        Діяльність: 56.29 Постачання інших готових страв
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">beenhere</i>-->
+<!--                                        Діяльність: 56.29 Постачання інших готових страв-->
+<!--                                    </li>-->
 
-                                </ul>
-                            </div>
-                        </div>
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
-                        <div class="col-md-6">
-                            <div class="contact-info-container wow fadeInRight">
-                                <ul class="list-unstyled contact-info">
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="contact-info-container wow fadeInRight">-->
+<!--                                <ul class="list-unstyled contact-info">-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">date_range</i>
-                                        Дата реєстрації: 03.03.2018
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">date_range</i>-->
+<!--                                        Дата реєстрації: 03.03.2018-->
+<!--                                    </li>-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">local_atm</i>
-                                        Статутний капітал на 02.07.2019: 10 000 грн
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">local_atm</i>-->
+<!--                                        Статутний капітал на 02.07.2019: 10 000 грн-->
+<!--                                    </li>-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">email</i>
-                                        E-mail: kuzminov@web.de
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">email</i>-->
+<!--                                        E-mail: kuzminov@web.de-->
+<!--                                    </li>-->
 
-                                    <li style="margin-left: -5px;">
-                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">beenhere</i>
-                                        платник ПДВ (номер 419782426555) /pdv_41978242
-                                    </li>
+<!--                                    <li style="margin-left: -5px;">-->
+<!--                                        <i class="material-icons" style="padding-right: 15px; transform: translateY(5px);">beenhere</i>-->
+<!--                                        платник ПДВ (номер 419782426555) /pdv_41978242-->
+<!--                                    </li>-->
 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+            <div class="action-call text-center" style="display: flex;align-items: center;justify-content: center;">
+
+                <div class="hidden-xs-down"  style="overflow:hidden;width: 800px;position: relative;">
+                <iframe width="800" height="600" src="https://maps.google.com/maps?width=800&amp;height=600&amp;hl=en&amp;q=%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D0%BA%2C%206%2C%20%D0%9A%D0%B8%D0%B5%D0%B2+(%D0%90%D0%B4%D1%80%D0%B5%D1%81%D0%B0%3A%2001133%2C%20%D0%BC.%D0%9A%D0%B8%D1%97%D0%B2%2C%20%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%9F%D0%A0%D0%9E%D0%92%D0%A3%D0%9B%D0%9E%D0%9A%20%D0%9B%D0%90%D0%91%D0%9E%D0%A0%D0%90%D0%A2%D0%9E%D0%A0%D0%9D%D0%98%D0%99%2C%20%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA%206%2C%20%D0%BE%D1%84%D1%96%D1%81%2021)&amp;ie=UTF8&amp;t=p&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a> & <a href="https://iamsterdamcard.it">i amsterdamcard it</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
                 </div>
+
+                <div class="visible-xs hidden-sm-up" style="overflow:hidden;width: 450px;position: relative;">
+                    <div style="overflow:hidden;width: 350px;position: relative;"><iframe width="350" height="450" src="https://maps.google.com/maps?width=350&amp;height=450&amp;hl=en&amp;q=Laboratornyi%20Ln%2C%206%2C%20Kyiv%2C%2002000+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a> & <a href="https://iamsterdamcard.it">iamsterdam card.it</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+                </div>
+
             </div>
-
-
-
-            <div class="action-call text-center" style="display: flex;align-items: center;justify-content: center;"><div style="overflow:hidden;width: 800px;position: relative;"><iframe width="800" height="600" src="https://maps.google.com/maps?width=800&amp;height=600&amp;hl=en&amp;q=%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D0%BA%2C%206%2C%20%D0%9A%D0%B8%D0%B5%D0%B2+(%D0%90%D0%B4%D1%80%D0%B5%D1%81%D0%B0%3A%2001133%2C%20%D0%BC.%D0%9A%D0%B8%D1%97%D0%B2%2C%20%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%9F%D0%A0%D0%9E%D0%92%D0%A3%D0%9B%D0%9E%D0%9A%20%D0%9B%D0%90%D0%91%D0%9E%D0%A0%D0%90%D0%A2%D0%9E%D0%A0%D0%9D%D0%98%D0%99%2C%20%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA%206%2C%20%D0%BE%D1%84%D1%96%D1%81%2021)&amp;ie=UTF8&amp;t=p&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a> & <a href="https://iamsterdamcard.it">i amsterdamcard it</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br /></div>
         </div>
         <footer class="footer text-center"><span>© Copyright <span id="copyright"></span> www.delecta.com.ua</span></footer>
     </div>
 </div>
 <!-- Scripts-->
 <script src="./app.js"></script>
+<script>
+    const selectorMessageInput = $('#messageInput');
+    const selectorPhoneInput = $('#phoneInput');
+    const selectorSubmitButton = $('#submitButton');
+
+    clearForm();
+    isDisabled();
+    selectorMessageInput.on('input', ()=>isDisabled());
+    selectorPhoneInput.on('input', ()=>isDisabled());
+
+    function isDisabled(){
+        const phone =  selectorPhoneInput.val().trim();
+        const message =  selectorMessageInput.val().trim();
+
+        selectorPhoneInput.val(maxValidation(selectorPhoneInput.val(), 12));
+        selectorMessageInput.val(maxValidation(selectorMessageInput.val(), 120));
+
+        const isDisabled =  !(message.length >= 5 && phone.length >= 10);
+        selectorSubmitButton.prop('disabled', isDisabled);
+    }
+
+    function clearForm() {
+        selectorPhoneInput.val("");
+        selectorMessageInput.val("");
+        selectorSubmitButton.prop('disabled', true);
+    }
+
+    function maxValidation(text, max) {
+        return text.substr(0, max);
+    }
+
+    function submitFrom(){
+        const message = encodeURIComponent(`от: ${selectorPhoneInput.val().trim()} \nсообщение: ${selectorPhoneInput.val().trim()}`);
+
+        $.ajax({
+            type: "GET",
+            url: `https://api.telegram.org/bot828613647:AAH98KFTgeRuuboutAHaXndXDLeeDDWjkyg/sendMessage?chat_id=796151585&text=${message}`,
+            data: $(this).serialize()
+        })
+        .done(() => {
+            alert("Дякую за заявку! Скоро ми з вами зв'яжемося.");
+            clearForm();
+        });
+
+        return false;
+    }
+</script>
 </body>
 </html>
