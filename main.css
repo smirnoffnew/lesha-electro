@@ -1141,3 +1141,15 @@ h1, h2, h3 {
     overflow: hidden;
 }
 
+.pd-b-50 {
+    padding-bottom: 50px;
+}
+
+.title-header {
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.section-gradient {
+    background: linear-gradient(269deg, #F5F5F5, #E5EEF0);
+}
