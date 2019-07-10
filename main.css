@@ -1153,3 +1153,37 @@ h1, h2, h3 {
 .section-gradient {
     background: linear-gradient(269deg, #F5F5F5, #E5EEF0);
 }
+
+.contact-media .list-unstyled.contact-info li{
+    padding-bottom: 10px;
+}
+
+@media (max-width: 769px) {
+    .contact-media  {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .contact-media .list-unstyled.contact-info li{
+        font-size: 15px;
+    }
+
+    .contact-info-container{
+        padding-bottom: 40px;
+    }
+}
+
+.block-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
