@@ -1124,6 +1124,18 @@ h1, h2, h3 {
 
 /*custom classes*/
 
+
+.f-custom-icon {
+    margin-right: 14px !important;
+    margin-left: 3.5px !important;
+    font-size: 20px;
+}
+
+.custom-icon {
+    padding-right: 10px;
+    transform: translateY(5px);
+}
+
 .text-ellipsis {
     text-overflow: ellipsis !important;
     overflow: hidden;
