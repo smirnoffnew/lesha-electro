@@ -583,7 +583,9 @@ h1, h2, h3 {
 }
 
 .header .togger-container {
-    padding: 6px 0
+    padding: 6px 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .cbp-spmenu {
@@ -618,7 +620,7 @@ h1, h2, h3 {
 }
 
 .cbp-spmenu-vertical a {
-    padding: 1rem;
+    padding: .8rem;
     padding-left: 2rem
 }
 
