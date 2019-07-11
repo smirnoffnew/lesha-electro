@@ -909,7 +909,7 @@ h1, h2, h3 {
 }
 
 .features {
-    padding: 80px 0 80px;
+    padding: 145px 0 80px;
     border-bottom: 1px solid #ddd
 }
 
@@ -1195,6 +1195,7 @@ h1, h2, h3 {
 }
 
 .download-card {
+    border-radius: 5px;
     background-color: #F5F5F8;
     padding: 20px;
     -moz-box-shadow:    10px 10px 30px -15px #696868;
@@ -1253,7 +1254,7 @@ h1, h2, h3 {
 }
 
 .nav-container {
-    width: 85%;
+    max-width: 85vw;
 }
 
 .navbar-toggler {
@@ -1266,11 +1267,6 @@ h1, h2, h3 {
     transform: translateY(3px);
 }
 
-@media (max-width: 1980px) {
-    .features {
-        padding: 145px 0 80px;
-    }
-}
 
 @media (max-width: 1245px) {
     .features {
@@ -1349,6 +1345,12 @@ h1, h2, h3 {
     .navbar-toggler {
         font-size: 1.4rem;
     }
+
+    .law-card {
+        width: 90%;
+        margin: 50px 20px 20px;
+    }
+
 }
 
 
