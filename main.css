@@ -1267,6 +1267,16 @@ h1, h2, h3 {
     transform: translateY(3px);
 }
 
+.perevagi-ul {
+    list-style-type: none; padding: .5rem;
+}
+
+.perevagi-ul li {
+    /*padding-left: 1rem;*/
+    /*border-left: solid 2px #269687;*/
+    margin-bottom: 2.5rem;
+}
+
 
 @media (max-width: 1245px) {
     .features {
